@@ -1,0 +1,6 @@
+VehicleID,TireWearScore,DriverAggressivenessScore,BrakeShoeHealth,BreakdownRiskStatus,RiskDetails
+RJ47GA6350,1,1,High Wear (Check Brakes),CRITICAL: Breakdown Imminent,Critical Engine Stop Lamp Triggered; Engine Warning Lamp Triggered
+RJ47GA6215,1,1,High Wear (Check Brakes),Healthy,Low Risk
+RJ47GA6294,1,1,Good,Healthy,Low Risk
+NL01AH8914,1,1,Good,Healthy,Low Risk
+RJ47GA5867,1,1,N/A (Missing Brake Data),Healthy,Low Risk

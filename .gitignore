@@ -1,0 +1,11 @@
+# Data directories (too large for git)
+candata_KM Trans (1) (3)/
+gpsdata_KM Trans (1) (2)/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
