@@ -1,6 +1,6 @@
-# Data directories (too large for git)
-candata_KM Trans (1) (3)/
-gpsdata_KM Trans (1) (2)/
+# Data directories - ALLOWED for this repo
+# candata_KM Trans (1) (3)/
+# gpsdata_KM Trans (1) (2)/
 *.zip
 
 # Python

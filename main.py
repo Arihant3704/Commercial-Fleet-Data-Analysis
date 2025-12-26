@@ -9,9 +9,11 @@ from analytics import (
 )
 
 # Configuration
-CAN_DIR = '/home/arihant/Downloads/cim intership/candata_KM Trans (1) (3)/km'
-GPS_DIR = '/home/arihant/Downloads/cim intership/gpsdata_KM Trans (1) (2)/km'
-OUTPUT_FILE = 'fleet_analytics_report.csv'
+# Using relative paths for portability
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CAN_DIR = os.path.join(BASE_DIR, 'candata_KM Trans (1) (3)', 'km')
+GPS_DIR = os.path.join(BASE_DIR, 'gpsdata_KM Trans (1) (2)', 'km')
+OUTPUT_FILE = os.path.join(BASE_DIR, 'fleet_analytics_report.csv')
 
 def main():
     print("Starting Fleet Analytics...")
